@@ -45,5 +45,7 @@ Plug '~/my-prototype-plugin'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Plug 'wincent/command-t', {'branch': 'release'}
 
+Plug 'tpope/vim-fugitive'
+
 " Initialize plugin system
 call plug#end()

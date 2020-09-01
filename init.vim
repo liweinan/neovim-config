@@ -1,7 +1,10 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 syntax on
+
 set number
+set autoread
+
 let g:python3_host_prog = '/Users/weli/.pyenv/versions/3.8.5/bin/python'
 let g:python_host_prog = '/Users/weli/.pyenv/versions/2.7.18/bin/python'
 nmap <C-n> :NERDTreeToggle<CR>

@@ -4,7 +4,6 @@ syntax on
 set number
 set autoread
 set lines=48 columns=160
-colorscheme gruvbox
 set guifont=Monaco:h12
 
 let g:python3_host_prog = '/Users/weli/.pyenv/versions/3.8.5/bin/python'
@@ -56,3 +55,6 @@ Plug 'rust-lang/rust.vim'
 
 " Initialize plugin system
 call plug#end()
+
+colorscheme gruvbox
+set bg=dark

@@ -58,3 +58,5 @@ call plug#end()
 
 colorscheme gruvbox
 set bg=dark
+
+nmap <leader>a v<Plug>(coc-codeaction-selected)
